@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  color: yellow;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  background-image: url('./heroes/lolbackground.jpg');
+}
+
+.deck { 
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.deck div {
+  text-align: center;
+}
+
+.heroCard {
+}
+
+.heroImg {
+  border: 5px solid gold;
+  border-radius: 75%;
+}
+
+span {
+  display: block;
+}
